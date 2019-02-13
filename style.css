@@ -22,7 +22,7 @@ hr {
 
 /* header.startup {
   background-position: center;
-  background-image: url("images/bg.JPG");
+  background-image: url("pictures/bg.JPG");
   background-size: cover;
   height: 100%;
 } */
@@ -36,7 +36,7 @@ header.startup {
 }
 
 header.startup::before {
-    background-image: url(images/bg.JPG);
+    background-image: url(pictures/bg.JPG);
     background-size: cover;
     content: "";
     display: block;
