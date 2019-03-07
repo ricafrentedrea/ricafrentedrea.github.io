@@ -69,10 +69,13 @@ header.container::after{
 @media screen and (max-width: 480px) { 
     .caption {
         font-size: 20px;
+        padding: 10px;
     }
 
     .description {
-        font-size: 20px;
+        font-size: 15px;
+        padding: 0px 30px;
+        line-height: 1.5em;
     }
 
     .btn {
