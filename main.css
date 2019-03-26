@@ -113,7 +113,7 @@ header.container::after{
     border-radius: 6px;
     font-size: 1.5em;
     margin-top: 30px;
-    box-shadow: 1px .5px #bab8b6;
+    box-shadow: 0.5px 0.5px 2px gray;
     transition: all .5s ease-in-out;
 
 }
@@ -124,4 +124,7 @@ header.container::after{
     box-shadow: none;
 }
 
+.btn:focus {
+    outline: none;
+}
 
